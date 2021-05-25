@@ -13,4 +13,4 @@ spec:
       - "default"
   parameters:
     allowedCapabilities: ["something"]
-    requiredDropCapabilities: ["must_drop"]
+    requiredDropCapabilities: ["NET_ADMIN"]
