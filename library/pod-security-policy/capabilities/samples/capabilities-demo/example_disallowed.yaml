@@ -14,7 +14,7 @@ spec:
         - "--addr=localhost:8080"
       securityContext:
         capabilities:
-          add: ["must_drop"]
+          add: ["NET_ADMIN"]
       resources:
         limits:
           cpu: "100m"
