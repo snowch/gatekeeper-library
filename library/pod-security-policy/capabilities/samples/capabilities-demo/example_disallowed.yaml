@@ -14,7 +14,7 @@ spec:
         - "--addr=localhost:8080"
       securityContext:
         capabilities:
-          add: ["disallowedcapability"]
+          add: ["must_drop"]
       resources:
         limits:
           cpu: "100m"
